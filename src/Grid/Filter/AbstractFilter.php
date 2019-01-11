@@ -346,7 +346,7 @@ abstract class AbstractFilter
      *
      * @return mixed
      */
-    protected function setPresenter(Presenter $presenter)
+    public function setPresenter(Presenter $presenter)
     {
         $presenter->setParent($this);
 
